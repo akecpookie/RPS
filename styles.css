@@ -1,0 +1,16 @@
+body{
+background-color:black;
+}
+
+#RPS{
+color:white;
+margin-left: 50px;
+}
+
+#comp_score{
+    color: white;
+}
+
+#player_score{
+    color: white;
+}
