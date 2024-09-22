@@ -3,6 +3,8 @@ let Paper = false
 let Scissors = false
 let player_score =  0
 let  computer_score = 0
+document.getElementById("comp_score").innerHTML = "computer score:  " + computer_score
+    document.getElementById("player_score").innerHTML = "player score:  " + player_score
 
 let jajaken = {
     get value() {
