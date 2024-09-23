@@ -3,6 +3,8 @@ let Paper = false
 let Scissors = false
 let player_score =  0
 let  computer_score = 0
+let Round = 0
+
 document.getElementById("comp_score").innerHTML = "computer score:  " + computer_score
     document.getElementById("player_score").innerHTML = "player score:  " + player_score
 
@@ -42,6 +44,20 @@ let jajaken = {
       document.getElementById("comp_score").innerHTML = "computer score:  " + computer_score
       document.getElementById("player_score").innerHTML = "player score:  " + player_score
      }
+      
+     if (computer_score == 6){
+         computer_score = 0
+         player_score = 0
+         Round += 1
+         document.getElementById("Round").innerHTML ="Rounds: " + Round 
+     }
+
+      if (player_score == 6){
+         computer_score = 0
+         player_score = 0
+         Round += 1
+         document.getElementById("Round").innerHTML ="Rounds: " + Round 
+     }
 }
 
 function PAPER(){
@@ -74,6 +90,20 @@ function PAPER(){
       document.getElementById("comp_score").innerHTML = "computer score:  " + computer_score
       document.getElementById("player_score").innerHTML = "player score:  " + player_score
      }
+    
+     if (computer_score == 6){
+         computer_score = 0
+         player_score = 0
+         Round += 1
+         document.getElementById("Round").innerHTML ="Rounds: " + Round 
+     }
+
+      if (player_score == 6){
+         computer_score = 0
+         player_score = 0
+         Round += 1
+         document.getElementById("Round").innerHTML ="Rounds: " + Round 
+     }
 }
 
 function SCISSORS(){
@@ -105,5 +135,19 @@ function SCISSORS(){
       document.getElementById("RPS").innerHTML = "Scissors vs Scissors, It's a Tie!"
       document.getElementById("comp_score").innerHTML = "computer score:  " + computer_score
       document.getElementById("player_score").innerHTML = "player score:  " + player_score
+     }
+
+     if (computer_score == 6){
+         computer_score = 0
+         player_score = 0
+         Round += 1
+         document.getElementById("Round").innerHTML ="Rounds: " + Round 
+     }
+
+      if (player_score == 6){
+         computer_score = 0
+         player_score = 0
+         Round += 1
+         document.getElementById("Round").innerHTML ="Rounds: " + Round 
      }
     }
