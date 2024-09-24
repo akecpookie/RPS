@@ -45,14 +45,14 @@ let jajaken = {
       document.getElementById("player_score").innerHTML = "player score:  " + player_score
      }
       
-     if (computer_score == 6){
+     if (computer_score == 5){
          computer_score = 0
          player_score = 0
          Round += 1
          document.getElementById("Round").innerHTML ="Rounds: " + Round 
      }
 
-      if (player_score == 6){
+      if (player_score == 5){
          computer_score = 0
          player_score = 0
          Round += 1
@@ -91,14 +91,14 @@ function PAPER(){
       document.getElementById("player_score").innerHTML = "player score:  " + player_score
      }
     
-     if (computer_score == 6){
+     if (computer_score == 5){
          computer_score = 0
          player_score = 0
          Round += 1
          document.getElementById("Round").innerHTML ="Rounds: " + Round 
      }
 
-      if (player_score == 6){
+      if (player_score == 5){
          computer_score = 0
          player_score = 0
          Round += 1
@@ -137,14 +137,14 @@ function SCISSORS(){
       document.getElementById("player_score").innerHTML = "player score:  " + player_score
      }
 
-     if (computer_score == 6){
+     if (computer_score == 5){
          computer_score = 0
          player_score = 0
          Round += 1
          document.getElementById("Round").innerHTML ="Rounds: " + Round 
      }
 
-      if (player_score == 6){
+      if (player_score == 5){
          computer_score = 0
          player_score = 0
          Round += 1
