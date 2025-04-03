@@ -1,7 +1,7 @@
-let Rock, Paper, Scissors = false
+let Rock, Paper, Scissors = Rock = Paper = false
 //let Paper = false
 //let Scissors = false
-let player_score,  computer_score =  0
+let player_score,  computer_score = player_score =  0
 //let  computer_score = 0
 let Round = 0
 
