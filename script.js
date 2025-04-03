@@ -1,8 +1,8 @@
-let Rock = false
-let Paper = false
-let Scissors = false
-let player_score =  0
-let  computer_score = 0
+let Rock, Paper, Scissors = false
+//let Paper = false
+//let Scissors = false
+let player_score,  computer_score =  0
+//let  computer_score = 0
 let Round = 0
 
 document.getElementById("comp_score").innerHTML = "computer score:  " + computer_score
