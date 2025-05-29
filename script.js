@@ -1,18 +1,13 @@
 let Rock, Paper, Scissors = Rock = Paper = false
-//let Paper = false
-//let Scissors = false
-let player_score,  computer_score = player_score =  0
-//let  computer_score = 0
-let Round = 0
+
+let player_score, Round, computer_score = Round = player_score =  0
+
 
 document.getElementById("comp_score").innerHTML = "computer score:  " + computer_score
     document.getElementById("player_score").innerHTML = "player score:  " + player_score
 
-let jajaken = {
-    get value() {
-      return Math.floor(Math.random() * 3);
-    }
-  }
+let jajaken = return Math.floor(Math.random() * 3);
+  
 
   function ROCK(){
     let jaja = jajaken.value
