@@ -10,7 +10,7 @@ let jajaken = return Math.floor(Math.random() * 3);
   
 
   function ROCK(){
-    let jaja = jajaken.value
+    let jaja = jajaken
     let rock = 0
     let paper = 1
     let scissors = 2
@@ -56,7 +56,7 @@ let jajaken = return Math.floor(Math.random() * 3);
 }
 
 function PAPER(){
-  let jaja = jajaken.value
+  let jaja = jajaken
     let rock = 0
     let paper = 1
     let scissors = 2
@@ -102,7 +102,7 @@ function PAPER(){
 }
 
 function SCISSORS(){
-  let jaja = jajaken.value
+  let jaja = jajaken
     let rock = 0
     let paper = 1
     let scissors = 2
